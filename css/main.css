@@ -184,6 +184,11 @@ main p:nth-child(3) {
 	height: 100%;
 }
 
+.opac-Img {
+	opacity: 0.7;
+	transition: opacity 1s;
+}
+
 .center-text p {
 	padding-top: 6px;
 	text-transform: uppercase;

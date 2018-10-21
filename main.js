@@ -22,3 +22,12 @@ for (i=0; i < button.length; i++) {
 //	locationDiv.classList.toggle("show-div");
 //};
 //locationButton.onclick = dropDownLocations;
+
+var imgItem = document.getElementsByClassName('flex-img');
+function opacImg() {
+	this.classList.toggle('opac-Img');
+}
+for (i=0; i < imgItem.length; i++) {
+	imgItem[i].addEventListener('mouseenter', opacImg);
+	imgItem[i].addEventListener('mouseleave', opacImg);
+};
