@@ -75,27 +75,28 @@ ul li {
 	transition: background-color 0.5s;
 }
 
-.locations {
+#location-menu {
 	width: 110px;
+	margin:auto;
 	background-color: #333;
 	border-radius: 7px;
 }
 
-.locations ul {
+#location-menu ul {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 	padding-top: 5px;
 }
 
-.locations ul li {
+#location-menu ul li {
 	display: block;
 	text-align: center;
 	padding: 2px;
 	color: #BAEA32;
 }
 
-.hide-div {
+#location-menu {
   height: 0;
   overflow: hidden;
   transition: height 1s
@@ -103,7 +104,7 @@ ul li {
 
 .show-div {
 	height: 75px !important;
-	transition: height 1s;
+	transition: all 1s;
 }
 
 nav {
