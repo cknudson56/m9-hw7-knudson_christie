@@ -77,7 +77,7 @@ ul li {
 
 #location-menu {
 	width: 110px;
-	margin:auto;
+	margin: auto;
 	background-color: #333;
 	border-radius: 7px;
 }
@@ -119,8 +119,8 @@ nav h3 {
 	text-transform: uppercase;
 	padding-left: 5px;
 	padding-right: 5px;
+	height: 28px;
 }
-
 
 #header-text {
 	width: 300px;
@@ -261,7 +261,6 @@ footer {
 		padding: 20px 5px 10px 5px;
 		border-radius: 0 0 7px 7px;
 	}
-
 	.org-bg {
 		padding: 20px 5px 10px 5px;
 		border-radius: 0 0 7px 7px;
@@ -269,6 +268,9 @@ footer {
 	nav {
 		width: 100%;
 		max-width: 700px;
+	}
+	nav h3 {
+		height: 44px;
 	}
 }
 
@@ -281,7 +283,7 @@ footer {
 		padding: 20px 10px 10px 10px;
 	}
 	#header-text {
-		left: 50%;
+		left: 45%;
 		top: 120px;
 	}
 }
